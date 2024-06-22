@@ -1,0 +1,3 @@
+Run in terminal with 'node app.js'. 
+Server starts at http://localhost:3000.
+Interact with website.

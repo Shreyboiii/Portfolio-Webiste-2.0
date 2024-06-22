@@ -1,0 +1,48 @@
+<div>
+  <section id="contact">
+    <p class="section__text__p1">Get in Touch</p>
+    <h1 class="title">Contact Me</h1>
+    <div class="contact-info-upper-container">
+      <div class="contact-info-container">
+        <img
+          src="/images/icons/email.png"
+          alt="Email icon"
+          class="icon contact-icon email-icon"
+        />
+        <p>
+          <a class="underline" href="mailto:examplemail@gmail.com"
+            >shreyash.hamal@gmail.com</a
+          >
+        </p>
+      </div>
+      <div class="contact-info-container">
+        <img
+          src="/images/icons/linkedin.png"
+          alt="LinkedIn icon"
+          class="icon contact-icon"
+        />
+        <p>
+          <a
+            class="underline"
+            href="https://www.linkedin.com/in/shreyash-hamal/"
+            >LinkedIn</a
+          >
+        </p>
+      </div>
+    </div>
+<div>
+    <p class="hello">Thank you for reaching out {{firstName}} {{lastName}}, your message has been sent on {{datetime}}!</p>
+</div>
+  </section>
+</div>
+<script>
+    // Scroll to #contact section after the page reloads
+    window.onload = function() {
+            // Scroll to #contact section
+            var contactSection = document.getElementById('contact');
+            if (contactSection) {
+                contactSection.scrollIntoView({ behavior: 'smooth' });
+            }
+        
+    };
+</script>
